@@ -1,6 +1,6 @@
 body {
   min-height: 100vh;
-  background: #010402;
+  background: #dbc7ff;
   overflow: hidden;
 }
 
@@ -12,7 +12,7 @@ body {
 p {
   font-family: 'Special Elite', cursive;
   font-size: 40px;
-  color:white;
+  color:rgb(35, 21, 93);
   white-space: nowrap;
   overflow: hidden;
   width: 100vw;
