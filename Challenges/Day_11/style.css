@@ -1,5 +1,5 @@
 body {
-    background: #3bc9ceaf;
+    background: #ffffffaf;
 }
 
 .center {
@@ -17,9 +17,9 @@ body {
 .pulse {
     width: 120px;
     height: 120px;
-    color: white;
+    color: rgb(255, 150, 234);
     border-radius: 50%;
-    background-color: #d37fb4;
+    background-color: #8e7fd3;
     line-height: 120px;
     animation: animate 3s linear infinite;
     justify-content: center;
@@ -30,20 +30,20 @@ body {
 
 @keyframes animate {
     0% {
-        box-shadow: 0 0 0 0 #d351a3d3, 
-        0 0 0 0 #cc3394d3;
+        box-shadow: 0 0 0 0 #6751d3d3, 
+        0 0 0 0 #6751d3d3;
     }
     40% {
-        box-shadow: 0 0 0 20px #b95a96cc, 
-        0 0 0 0 #8d336aaf;
+        box-shadow: 0 0 0 20px #6751d3d3, 
+        0 0 0 0 #6751d3d3;
     }
     80% {
-        box-shadow: 0 0 0 30px #792359cc,
-        0 0 0 30px #702e589f;
+        box-shadow: 0 0 0 30px #6751d3d3,
+        0 0 0 30px #6751d3d3;
     }
     100% {
-        box-shadow: 0 0 0 0 40px #7e1758cc, 
-        0 0 0 40px  #aa398186;
+        box-shadow: 0 0 0 0 40px #6751d3d3, 
+        0 0 0 40px  #6751d3d3;
     }
 }
 
